@@ -3,7 +3,6 @@ module "alb-public" {
   ALB_NAME             = "roboshop-public-alb"
   ENV                  = var.ENV 
   INTERNAL             = false
-
 }
 
 
