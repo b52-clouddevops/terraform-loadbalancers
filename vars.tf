@@ -1,4 +1,3 @@
-variable "VPC_CIDR" {}
+variable "ALB_NAME" {}
+variable "INTERNAL" {}
 variable "ENV" {}
-
-
