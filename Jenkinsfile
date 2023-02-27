@@ -1,6 +1,6 @@
 @Library('robot-shared-library@main') _
 
-env.REPONAME="terraform-
+env.REPONAME="terraform-loadbalancers"
 terraform()
 
 // pipeline {
