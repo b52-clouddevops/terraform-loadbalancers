@@ -1,5 +1,6 @@
 @Library('robot-shared-library@main') _
 
+env.REPONAME="terraform-
 terraform()
 
 // pipeline {
