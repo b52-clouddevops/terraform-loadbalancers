@@ -3,7 +3,6 @@ module "alb-private" {
   ALB_NAME              = "roboshop-private-alb"
   INTERNAL              = true 
   ENV                   = var.ENV
-  APP_VERSION           = var.APP_VERSION
 }
 
 module "alb-public" {
@@ -11,5 +10,4 @@ module "alb-public" {
   ALB_NAME              = "roboshop-public-alb"
   INTERNAL              = false
   ENV                   = var.ENV
-  APP_VERSION           = var.APP_VERSION   
 }
