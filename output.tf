@@ -11,8 +11,13 @@ output "PRIVATE_LISTENER_ARN" {
 }
 
 
+output "PUBLIC_ALB_ADDRESS" {
+    value =  module.alb-public.ALB_ADDRESS
+}
 
-
+output "PUBLIC_ALB_ADDRESS" {
+    value =  module.alb-public.ALB_ADDRESS
+}
 
 
 
